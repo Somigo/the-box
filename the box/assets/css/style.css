@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none; /* fjerner linjer under text */
+    list-style: none;
+    font-family: Montserrat;
+}
+
+nav ul {
+    float: right;
+    /* margin-right: 20px; */
+    
+}
+
+nav ul li {
+    display: inline-block; /* gør at listen står på en vandret linje */
+    
+    line-height: 50px;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: black;
+
+}
+
+nav ul li a:hover {
+    color: #f9995d;
+    /* transition: .5s; */
+} 
+
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 1800px;
+
+    object-fit: cover;
+}
+
+/* syling the heading on the hero image */
+
+.heading {
+   /*  text-align: center; */
+    font-size: 5rem;
+    position: absolute;
+    top: 65%; /* positioned 60% from the top of the image */
+    left: 10%;
+}
+
+.containers3 {
+     display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.best-services {
+    border: solid thin #A3AAC2;
+    
+}
+.best-teams {
+    border: solid thin #A3AAC2;
+}
+.best-designs {
+    border: solid thin #A3AAC2;
+}
+
+.reputation {
+    font-size: 25px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    border: thin solid #A3AAC2;
+    
+}
+
+p {
+    color: #A3AAC2;
+}
+
+.founder img {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+    display: grid;
+    grid-row: 1/span 1;
+    grid-column: 1/span 2;
+    
+    width: 100%;
+    min-height: 22rem;
+}
+
+.billboard-text {
+    display: grid;
+    grid-row: 1/span 1;
+    grid-column: 2/span 2;
+    align-self:center;
+    
+    height: 80%;
+    width: 100%;
+    background-color: #2947A9;
+
+    height: 400px;
+    width: 350px; 
+
+}
+
+.consultation{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+.consultation img{
+    min-width:100%;
+    height: auto;
+    object-fit: cover;
+    z-index: -10;
+
+    grid-row: 1/span 1;
+    grid-column: 1/span 2;
+
+}
+.consultation section{
+    grid-row: 1/span 1;
+    grid-column:1/span 1;
+}
+
+.projects {
+    
+    font-size: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    gap:0.5rem;
+  }
+
+
+
+
+
+
